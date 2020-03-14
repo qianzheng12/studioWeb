@@ -1,0 +1,66 @@
+.initialNavBar{
+    position: absolute;
+    top:0;
+    padding-top:10px;
+    z-index: 999;
+    width: 100%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.whiteNavBar{
+    position: fixed;
+    top:0;
+    background: white;
+    height: 80px;
+    z-index: 999;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 1px #939393;
+}
+#initialNavBarIn{
+    bottom:0px;
+    opacity: 1;
+}
+#initialNavBarOut{
+    bottom:50px;
+    opacity: 0;
+    height: 0;
+}
+#whiteNavBarOut{
+    top:10px;
+    opacity: 0;
+}
+#whiteNavBarIn{
+
+    top:0px;
+    opacity: 1;
+}
+.whiteNavBar button{
+    position: relative;
+    top:25px;
+    float: right;
+    width: 120px;
+    z-index: 10;
+    border: solid 2px #71B2EC;
+}
+.whiteNavBar span{
+    color: #71B2EC;
+}
+.initialNavBar button{
+    position: relative;
+    top:25px;
+    float: right;
+    width: 120px;
+    border: solid 2px white;
+    z-index: 10;
+}
+.initialNavBar span{
+    color: white;
+}

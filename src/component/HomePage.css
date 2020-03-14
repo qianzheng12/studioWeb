@@ -1,0 +1,338 @@
+.wrapper{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    min-height: 5000px;
+}
+.test{
+    height: 500px;
+    background: black;
+    width: 100%;
+}
+.introArea{
+    position: absolute;
+    width: 100%;
+    top:50px;
+}
+.headerCard{
+    position: relative;
+    margin-bottom: 50px;
+    top:0;
+    background: url("../resource/introImage (2).png") no-repeat center;
+    background-size: cover;
+    height: 900px;
+    width: 100vw;
+    text-align: center;
+}
+.headerCard #introPic{
+
+}
+.headerCard #logo{
+    height: 100px;
+    position: relative;
+    width: 100px;
+    -webkit-animation: logoFadeIn 3s ease-in-out;
+    -moz-animation: logoFadeIn 3s ease-in-out;
+    -ms-animation: logoFadeIn 3s ease-in-out;
+    -o-animation: logoFadeIn 3s ease-in-out;
+    animation: logoFadeIn 3s ease-in-out;
+}
+.headerCard h1{
+    font-family: 'Dancing Script', cursive;
+    color: #61dafb;
+    font-size: 3em;
+    position: relative;
+    -webkit-animation: logoFadeIn 3s ease-in-out;
+    -moz-animation: logoFadeIn 3s ease-in-out;
+    -ms-animation: logoFadeIn 3s ease-in-out;
+    -o-animation: logoFadeIn 3s ease-in-out;
+    animation: logoFadeIn 3s ease-in-out;
+}
+.headerCard p{
+    font-weight: normal;
+    text-align: center;
+    z-index: 10;
+    width: 100%;
+    position: relative;
+    top:30px;
+
+    margin:0;
+    font-family: 'Ma Shan Zheng', cursive;
+    color: white;
+    font-size: 4em;
+    text-shadow: 1px 1px 1px #000000;
+    -webkit-animation: fadeIn 1.5s ease-in-out;
+    -moz-animation: fadeIn 1.5s ease-in-out;
+    -ms-animation: fadeIn 1.5s ease-in-out;
+    -o-animation: fadeIn 1.5s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
+}
+.headerCard .headerText{
+    width: 1000px;
+    position: relative;
+    z-index: 10;
+    height: 800px;
+    text-align: center;
+}
+
+.seaPic{
+    margin: 0 auto;
+    position: relative;
+    top:200px;
+    min-height: 1000px;
+    /* Center and scale the image nicely */
+    background: url("../resource/seaWave.png") no-repeat center;
+    background-size: cover;
+}
+
+@keyframes fadeOut {
+    from {
+        top:0px;
+        opacity:1;
+    }
+    to {
+        top:30px;
+        opacity:0;
+    }
+}
+@-webkit-keyframes fadeOut{
+    from {
+        top:0px;
+        opacity:1;
+    }
+    to {
+        top:30px;
+        opacity:0;
+    }
+}
+
+@keyframes imageFadein {
+    from {
+        transform: scale(1.5);
+        opacity:0;
+    }
+    5%  {
+        opacity:1;
+    }
+    to {
+        transform: scale(1);
+        opacity:1;
+    }
+}
+@-moz-keyframes imageFadein {
+    /* Firefox */
+    from {
+        height: 150%;
+        width: 150%;
+        opacity:0;
+    }
+    5%  {
+        opacity:1;
+    }
+    to {
+        height: 100%;
+        width: 100%;
+        opacity:1;
+    }
+}
+@-webkit-keyframes imageFadein {
+    /* Safari and Chrome */
+    from {
+        height: 150%;
+        width: 150%;
+        opacity:0;
+    }
+    to {
+        height: 100%;
+        width: 100%;
+        opacity:1;
+    }
+}
+@-o-keyframes imageFadein {
+    /* Opera */
+    from {
+        height: 150%;
+        width: 150%;
+        opacity:0;
+    }
+    to {
+        height: 100%;
+        width: 100%;
+        opacity:1;
+    }
+}
+
+@keyframes backgroundFadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes backgroundFadein {
+    /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes backgroundFadein {
+    /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes backgroundFadein {
+    /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes logoFadeIn {
+    /* Firefox */
+    from {
+        opacity:0;
+    }
+    50%{
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes logoFadeIn {
+    /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    50%{
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes logoFadeIn {
+    /* Opera */
+    from {
+        opacity:0;
+    }
+    50%{
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@keyframes logoFadeIn {
+    from {
+        opacity:0;
+    }
+    50%{
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes logoFadeIn {
+    /* Firefox */
+    from {
+        opacity:0;
+    }
+    50%{
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes logoFadeIn {
+    /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    50%{
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes logoFadeIn {
+    /* Opera */
+    from {
+        opacity:0;
+    }
+    50%{
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+@keyframes logoFadeIn {
+    from {
+        opacity:0;
+    }
+    50%{
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeinSlideUp {
+    /* Firefox */
+    from {
+        top:300px;
+        opacity:0;
+    }
+    to {
+        top:0;
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadeinSlideUp {
+    /* Safari and Chrome */
+    from {
+        top:300px;
+        opacity:0;
+    }
+    to {
+        top:0;
+        opacity:1;
+    }
+}
+@-o-keyframes fadeinSlideUp {
+    /* Opera */
+    from {
+        top:300px;
+        opacity:0;
+    }
+    to {
+        top:0;
+        opacity:1;
+    }
+}
